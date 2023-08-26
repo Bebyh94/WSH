@@ -105,8 +105,8 @@ def main():
         os.system('cls')
         os.system('clear')
         banner_title = random.choice([logo_design_1,logo_design_2,logo_design_3,logo_design_4])
-        print Fore.RED + banner_title  
-        print message
+        print(Fore.RED + banner_title) 
+        print(message) 
         load_count += 1
     option = raw_input(Fore.WHITE + "phonesploit"+Fore.RED + "(main_menu) "+Fore.WHITE + "> ")
     if option == '1':
